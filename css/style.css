@@ -1,0 +1,180 @@
+/* Estilos Capuly */
+
+
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+/*Banner*/
+.parallax-banner{
+  min-height: 550px !important;
+
+}
+.parallax-fondo{
+  background-color: #5893f2;
+
+}
+
+
+.parallax-image{
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  float: right;
+  text-align: center;
+}
+
+@media only screen and (min-width : 980px) {
+
+  .desc-capuly{
+    margin-top: 50px;
+  }
+}
+
+
+
+
+
+
+
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #3a5289 !important;
+}
+
+
+/* Estilos de los botones sociale*/
+.buttons-social ul{
+    overflow: auto;
+}
+
+.buttons-social ul li {
+  display: inline-block;
+  list-style-type: none;
+  float: center;
+}
+
+.buttons-social ul li a i {
+  /*background: #205D7A;*/
+  border-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+
+  color: #fff;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 2em;
+
+  font-size: 1em;
+  text-align: center;
+  margin-right: 1em;
+  padding-top: 20%;
+}
+.buttons-social ul li a i:hover {
+    opacity: .7;
+}
+
+
+
+/*formulario contacto*/
+@media only screen and (min-width : 940px) {
+
+  .section-capuly {
+    margin-left: 20%;
+  }
+}
+
+
+@media only screen and (min-width : 940px) {
+  .contact-capuly {
+    max-width: 80%;
+  }
+  .contact-capuly button {
+    width: 40%;
+    margin-left: 30%;
+  }
+}
+
+@media only screen and (max-width : 940px) {
+  .contact-capuly button {
+    width: 100%;
+  }
+}
+
+.capuly-color{
+  color: #42a5f5;
+
+}
+
+.capuly-color-grey{
+  color: #616161;
+}
+
+/*navbar capuly*/
+.navbar-capuly{
+  color: white !important;
+  background-color: #5893f2;
+  box-shadow: none;
+
+}
+
+
+
+
